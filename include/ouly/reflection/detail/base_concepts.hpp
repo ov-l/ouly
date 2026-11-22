@@ -5,6 +5,7 @@
 #include "ouly/utility/convert.hpp"
 #include <concepts>
 #include <string_view>
+#include <tuple>
 #include <type_traits>
 #include <variant>
 

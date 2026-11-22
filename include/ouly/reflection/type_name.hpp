@@ -21,7 +21,7 @@ template <typename T>
   constexpr std::string_view name = ouly::detail::function_name_type<T>();
   // return name;
   constexpr auto start_pos = name.find(start) + start.size();
-  constexpr auto type      = name.substr(start_pos, name.find(end, start_pos) - start_pos);
+  constexpr auto type      = std::string_view(name.data() + start_pos, name.find(end, start_pos) - start_pos);
 
   constexpr auto length = type.length();
 

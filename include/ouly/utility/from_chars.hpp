@@ -4,6 +4,7 @@
 #include "ouly/utility/user_config.hpp"
 #include <charconv>
 #include <concepts>
+#include <limits>
 #include <stdexcept>
 #include <string_view>
 #include <system_error>

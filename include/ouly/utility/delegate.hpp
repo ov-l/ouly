@@ -6,6 +6,7 @@
 #include "ouly/utility/type_traits.hpp"
 #include "ouly/utility/utils.hpp"
 
+#include <array>
 #include <concepts>
 #include <cstddef>
 #include <cstdint>

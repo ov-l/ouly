@@ -5,6 +5,7 @@
 #include "ouly/allocators/default_allocator.hpp"
 #include "ouly/allocators/detail/custom_allocator.hpp"
 #include "ouly/utility/utils.hpp"
+#include <array>
 #include <cstddef>
 #include <optional>
 

@@ -10,6 +10,7 @@
 #include "ouly/utility/detail/concepts.hpp"
 #include "ouly/utility/type_traits.hpp"
 #include <new>
+#include <vector>
 
 namespace ouly
 {

@@ -4,6 +4,7 @@
 
 #include "ouly/reflection/bind.hpp"
 #include "ouly/reflection/detail/base_concepts.hpp"
+#include <tuple>
 
 namespace ouly
 {
