@@ -32,7 +32,7 @@ public:
 
   microexpr(macro_context&& ctx) noexcept : ctx_(std::move(ctx)) {}
 
-  OULY_API [[nodiscard]] auto evaluate(std::string_view expr) const -> bool;
+  [[nodiscard]] OULY_API auto evaluate(std::string_view expr) const -> bool;
 
 private:
   macro_context ctx_;
